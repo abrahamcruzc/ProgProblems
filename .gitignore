@@ -1,0 +1,84 @@
+# Ejecutables
+*.exe
+*.bin
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*~
+\#*
+*.tmp
+
+# Archivos de log
+*.log
+
+# Archivos de compilación
+*.o
+*.a
+*.so
+
+# Carpetas de compilación
+_obj
+_test
+build
+out
+
+# Dependencias
+vendor/
+
+# Archivos de configuración específicos del entorno
+.env
+
+# Archivos de caché
+__pycache__/
+
+# Archivos específicos del IDE (ejemplo: GoLand)
+.idea/
+
+# Archivos de test coverage
+coverage.out
+*.coverprofile
+
+#  Archivos de profiling
+pprof*
+
+#  Resultados de análisis estático
+*.sarif
+
+#  Archivos de distribución
+*.tar.gz
+*.zip
+
+#  Archivos específicos del sistema operativo
+.localized
+
+#  Archivos de backup
+*~
+\#*
+*.bak
+*.swp
+
+#  Archivos de texto generados por herramientas
+*.txt
+
+#  Archivos de markdown generados por herramientas (si no quieres incluirlos)
+*.md
+
+#  Archivos de documentación generados
+docs/
+
+
+#  Archivos de configuración de depuración
+dlv/
+
+#  Archivos de configuración del sistema de construcción (ejemplo: Make)
+.make.state
+
+#  Archivos específicos de la herramienta de versionado (ejemplo: Git LFS)
+.gitattributes
+
+#  Archivos que no quieres subir al repositorio
+secrets.json  # Ejemplo: Archivos con información sensible
+config.json.example # Ejemplo: Archivos de configuración de ejemplo
