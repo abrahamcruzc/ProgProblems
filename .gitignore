@@ -82,3 +82,6 @@ dlv/
 #  Archivos que no quieres subir al repositorio
 secrets.json  # Ejemplo: Archivos con información sensible
 config.json.example # Ejemplo: Archivos de configuración de ejemplo
+
+# Resuelto
+ArrayManipulation/
