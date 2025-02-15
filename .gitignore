@@ -85,3 +85,6 @@ config.json.example # Ejemplo: Archivos de configuración de ejemplo
 
 # Resuelto
 ArrayManipulation/
+
+# Sin resolver
+Done/TwoCharacters/

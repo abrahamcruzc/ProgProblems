@@ -28,7 +28,6 @@ func minimumNumber(n int32, password string) int32 {
 	totalTypeToAdd := requiredTypes - (isDigit + isLowerCase + isUpperCase + isSpecial)
 
 	var missingLength int32
-
 	if n <= minLength {
 		missingLength = minLength - n
 	}
